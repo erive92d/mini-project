@@ -1,19 +1,22 @@
-* {
-    background-color: antiquewhite;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+    background-color: rgb(228, 197, 154);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
 
 
 #links {
-    text-align: right;
-    padding: 10px;
+    
+    margin: 10px;
+    display: inline-block;
 }
 
-header {
-    background-color: green;
+.header {
+    background-color: rgb(75, 160, 127);
     margin: 0;
+    height: 50px;
     width: 100%;  
+    text-align: right;
 }
 
 .container, #my-new-website {
@@ -29,11 +32,12 @@ img {
     height: 300px;
     width: 300px;
     padding: 10px;
-    border: 10px solid green;
+    border: 10px solid rgb(75, 160, 127);
     
 }
 #my-new-website {
     text-align: center;
+    color: dimgray;
 }
 .contacts {
     
@@ -45,26 +49,31 @@ img {
 }
 .infos {
     
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     display: inline-block;
+    color: dimgray;
 }
 .informations {
-    border: 4px solid red;
+    border: 4px solid rgb(207, 169, 169);
     border-radius:1cm;
     padding: 5px;
     height: auto;
     width: auto;
-    
-    
-    
+    margin: 20px;  
     
 }
+p {
+    color: dimgray;
+}
+
 footer {
-    background-color: green;
-    margin: 10px;
+    background-color: rgb(75, 160, 127);
+    margin: 0;
     width: 100%;
     text-align: center;
+    position: absolute;
+    bottom: 0;
    
 }
 input[type="text"]{
@@ -72,9 +81,21 @@ input[type="text"]{
     background-color: white;
 }
 input[type="submit"] {
-    background-color:brown;
+    background-color:rgb(165, 122, 42);
     color: white;
+    
 }
 #contact-me {
     margin: 20px;
+    color:dimgrey;
+}
+.final {
+    display: inline-block;
+    color: white;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
