@@ -26,31 +26,71 @@ body {
     padding: 10px;
     width: 100%;
     margin-top: 10px;
-
-
+   
+    
 }
+
 
 #coming-soon {
     color: rgb(228, 197, 154);
-    width: 100px;
+    width: auto;
     border: 5px solid rgb(82, 78, 78);
     position: relative;
-    left: 15%;
-    top: 13%;
+    
     font-size: 20px;
     background-color: rgb(75, 67, 53);
+    display: inline-block;
 }
 
 .coming-soon1 {
-    height: 140px;
-    width: 160px;
-    padding: 5px;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
     margin: auto;
     background-color: rgb(75, 67, 53);
     border: 5px solid rgb(228, 197, 154);
+    position: relative;
+    right: 6%;
+    bottom: 6%;
+    
+    
 
 }
-/* JUST NEED COMING-SOON3 */
+.coming-soon2 {
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    margin: auto;
+    background-color: rgb(75, 67, 53);
+    border: 5px solid rgb(43, 110, 85);
+    position: relative;
+    right: 5%;
+    bottom: 4%;
+    
+    
+}
+
+.coming-soon3 {
+    height:200px;
+    width: 200px;
+    padding: 30px;
+    margin: auto;
+    background-color: rgb(75, 67, 53);
+    border: 5px solid rgb(228, 197, 154);
+    position: relative;
+    right: 4%;
+    bottom: 3%;
+    
+
+}
+.coming-soon4 {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(75, 67, 53);
+
+}
 
 #my-new-website {
     text-align: center;
@@ -58,7 +98,7 @@ body {
 }
 
 .contacts {
-
+    
     padding: 10px;
     text-align: center;
     width: 450px;
@@ -72,10 +112,11 @@ body {
     text-align: center;
     display: inline-block;
     color: dimgray;
+    
 }
 
 .informations {
-    border: 4px solid rgb(207, 169, 169);
+    border: 4px solid rgb(204, 170, 170);
     border-radius: 1cm;
     padding: 5px;
     height: auto;
@@ -98,10 +139,11 @@ footer {
 
 }
 
-input[type="text"] {
+#text-field {
     width: 300px;
     background-color: white;
 }
+
 
 input[type="submit"] {
     background-color: rgb(71, 68, 62);
