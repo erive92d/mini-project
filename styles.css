@@ -195,7 +195,7 @@ a {
 @media screen and (max-width: 700px) {
     #my-new-website {
         margin: auto; 
-        font-size: 80px;
+        font-size: 60px;
     }
 
     .coming-soon4 {
@@ -217,5 +217,19 @@ a {
         top: 88%;
     }
 
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .coming-soon4 {
+        left: 20%;
+    }
+    footer {
+        bottom: -45%;
+    }
+    #links {
+        margin: 15px 10px;
+    }
 
 }
