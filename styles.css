@@ -188,3 +188,32 @@ a {
     color: white;
     text-decoration: none;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 700px) {
+    #my-new-website {
+        margin: auto; 
+        font-size: 80px;
+    }
+
+    .coming-soon4 {
+        top: 40%;
+        left: 28%;
+        
+
+    }
+    .contacts {
+        top: 111%;
+    }
+    footer {
+        
+        bottom: -50%;
+        
+    }
+    #random-sentence {
+        top: 88%;
+    }
+
+
+}
